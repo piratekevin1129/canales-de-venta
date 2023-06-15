@@ -8,18 +8,25 @@
     margin-bottom: 70px;
 }
 
-.cv-columna-t2 .row1{
+.cv-columna-t2 .row1,
+.cv-columna-t2 .row4{
     position: absolute;
     width: 400px;
     height: 100%;
     height: calc(100% + 50px);
     height: -moz-calc(100% + 50px);
-    left: 20px;
     top: -25px;
     margin: 0px;
     padding: 0px;
 }
-.cv-columna-t2 .row1 img{
+.cv-columna-t2 .row1{
+    left: 20px;
+}
+.cv-columna-t2 .row4{
+    right: 20px;
+}
+.cv-columna-t2 .row1 img,
+.cv-columna-t2 .row4 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -28,20 +35,29 @@
     box-shadow: 5px 5px 10px -4px rgba(0,0,0,0.5);
 }
             
-.cv-columna-t2 .row2{
+.cv-columna-t2 .row2,
+.cv-columna-t2 .row3{
     position: relative;
     width: 100%;
     height: auto;
     margin: 0px;
     border-radius: 0px;
-    padding: 20px 40px 20px 20px;
     box-sizing: border-box;
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
+}
+.cv-columna-t2 .row2{
+    padding: 20px 40px 20px 20px;
     justify-content: flex-end;
 }
-.cv-columna-t2 .row2-content{
+.cv-columna-t2 .row3{
+    padding: 20px 20px 20px 40px;
+    justify-content: flex-start;
+}
+
+.cv-columna-t2 .row2-content,
+.cv-columna-t2 .row3-content{
     position: relative;
     width: 100%;
     width: calc(100% - 450px);
@@ -50,10 +66,17 @@
     display: block;
     margin: 0px;
     padding: 0px;
-    padding-right: 50px;
     box-sizing: border-box;
 }
-.cv-columna-t2 .row2-content h3{
+.cv-columna-t2 .row2-content{
+    padding-right: 50px;
+}
+.cv-columna-t2 .row3-content{
+    padding-left: 50px;
+}
+
+.cv-columna-t2 .row2-content h3,
+.cv-columna-t2 .row3-content h3{
     display: block;
     margin: 0px;
     padding: 0px;
@@ -108,4 +131,26 @@
     font-weight: normal;
     line-height: normal;
     margin-bottom: 5px;
+}
+
+.cv-columna-t2 .row2-content p,
+.cv-columna-t2 .row3-content p{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #707070;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.cv-columna-t2 .row2-content p span,
+.cv-columna-t2 .row3-content p span{
+    font-family: 'Barlow-Bold';
 }
