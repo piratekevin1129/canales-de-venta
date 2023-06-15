@@ -1,0 +1,83 @@
+.cv-banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.cv-banner img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+    
+.cv-banner-content{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+    left: 9%;
+    top: 0px;
+}
+
+.cv-banner-content h1,.cv-banner-content h2
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+.cv-banner-content-left h1,.cv-banner-content-left h2{
+    text-align: left;
+}
+.cv-banner-content h1{
+    font-family: 'FSJoey-Regular';
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.cv-banner-content h2{
+    font-family: 'FSJoey-Heavy-Regular';
+    font-size: 80px;
+    color: #00BAD8;
+    margin-top: -14px;
+    margin-bottom: -10px;
+}
+
+.cv-banner-breadcrumb{
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    left: calc(50% - 600px);
+    left: -moz-calc(50% - 600px);
+    top: 0px;
+}
+.cv-banner-breadcrumb p{
+    display: block;
+    margin: 0px;
+    padding: 10px 0px;
+    font-family: 'FSJoey-Regular';
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+.cv-banner-breadcrumb p a{
+    text-decoration: none;
+    color: inherit !important;
+}
+.cv-banner-breadcrumb p a:hover{
+    text-decoration: underline;
+}
+.cv-banner-breadcrumb p span{
+    margin: 0px 5px;
+}
+.cv-banner-breadcrumb p b{
+    color: #00BAD8;
+    font-family: 'FSJoey-Medium';
+    font-weight: normal !important;
+}

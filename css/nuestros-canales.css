@@ -1,0 +1,258 @@
+.cv-nuestros-canales{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    background-color: #ECF0F1;
+}
+.cv-nuestros-canales > h1{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    font-family: 'Barlow-Bold';
+    font-size: 28px;
+    color: #0033A0 !important;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+}
+.cv-nuestros-canales > h1::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #00AEC7;
+    top: 100%;
+    left: 50%;
+    left: calc(50% - 27.5px);
+    left: -moz-calc(50% - 27.5px);
+}
+
+.cv-nuestros-canales > h2{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+    font-family: 'Barlow-Medium';
+    font-size: 18px;
+    color: #53565A;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.cv-nuestros-canales-col,.cv-nuestros-canales-col2{
+    position: relative;
+    margin: 0px auto;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cv-nuestros-canales-col{
+    width: 900px;
+}
+.cv-nuestros-canales-col2{
+    width: 1200px;
+}
+
+.cv-nuestros-canales-card,.cv-nuestros-canales-card2{
+    display: block;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.3);
+    
+    transition: box-shadow 0.25s;
+    -webkit-transition: box-shadow 0.25s;
+}
+.cv-nuestros-canales-card{
+    width: 400px;
+}
+.cv-nuestros-canales-card2{
+    width: 360px;
+}
+
+.cv-nuestros-canales-card-head{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.cv-nuestros-canales-card-head img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.cv-nuestros-canales-card-head h3{
+    position: absolute;
+    height: 60px;
+    white-space: nowrap;
+    top: 50%;
+    top: calc(50% - 30px);
+    top: -moz-calc(50% - 30px);
+
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    
+    border-radius: 29px 0px 0px 29px;
+    background: linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255,255,255, 1) 80%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255,255,255, 1) 80%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255,255,255, 1) 80%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255,255,255, 1) 80%, rgba(255,255,255,0) 100%);
+}
+.cv-nuestros-canales-card-head h3 span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    height: calc(100% - 2px);
+    height: -moz-calc(100% - 2px);
+
+    left: 1.5px;
+    top: 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'FSJoey-Bold';
+    font-size: 27px;
+    color: #FFFFFF;
+    font-weight: normal;
+    line-height: normal;
+    text-align: right;
+
+    border-radius: 30px 0px 0px 30px;
+}
+
+.cv-card-affinity-title{
+    width: 30%;
+    left: 20%;
+}
+.cv-card-affinity-title span{
+    background: #0033A0;
+}
+.cv-card-asesores-title{
+    width: 37%;
+    left: 19%;
+}
+.cv-card-asesores-title span{
+    background: #0033A0;
+}
+.cv-card-bancaseguros-title{
+    width: 52%;
+    left: 9%;
+}
+.cv-card-bancaseguros-title span{
+    background: #0033A0;
+    background: linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -moz-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -webkit-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -o-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+}
+.cv-card-corredores-title{
+    width: 41%;
+    left: 5%;
+}
+.cv-card-corredores-title span{
+    background: #0033A0;
+}
+.cv-card-corresponsales-title{
+    width: 52%;
+    left: 5%;
+}
+.cv-card-corresponsales-title span{
+    background: #0033A0;
+}
+.cv-card-digital-title{
+    width: 33%;
+    left: 20%;
+}
+.cv-card-digital-title span{
+    background: #0033A0;
+    background: linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -moz-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -webkit-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+    background: -o-linear-gradient(to right, #0033A0 0%, #002e90 100%);
+}
+.cv-card-retail-title{
+    width: 33%;
+    left: 20%;
+}
+.cv-card-retail-title span{
+    background: #0033A0;
+    background: linear-gradient(to right, #0033A0 0%, #012593 100%);
+    background: -moz-linear-gradient(to right, #0033A0 0%, #012593 100%);
+    background: -webkit-linear-gradient(to right, #0033A0 0%, #012593 100%);
+    background: -o-linear-gradient(to right, #0033A0 0%, #012593 100%);
+}
+.cv-card-proteccion-title{
+    width: 44%;
+    left: 9%;
+}
+.cv-card-proteccion-title span{
+    background: #0033A0;
+}
+                
+.cv-nuestros-canales-card-body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.cv-nuestros-canales-card-body p{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.cv-nuestros-canales-card-body a{
+    display: flex;
+    width: 120px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #E3E829;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    font-family: 'Barlow-Bold';
+    color: #0033A0;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+
+    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+}
+.cv-nuestros-canales-card-body a:hover{
+    background-color: #e9ef11;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cv-nuestros-canales-card:hover,
+.cv-nuestros-canales-card2:hover{
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+}
