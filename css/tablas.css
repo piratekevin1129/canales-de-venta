@@ -44,9 +44,9 @@
     line-height: normal;
 }
 
-.cv-tabla-row{
+.cv-tabla-row,
+.cv-tablita-row{
     position: relative;
-    width: 1200px;
     margin: 0px auto;
     padding: 0px;
     border-radius: 5px;
@@ -54,6 +54,12 @@
     box-shadow: 0px 5px 20px rgba(0, 45, 84, 0.06);
     overflow: hidden;
     border: #0033A0 solid 1px;
+}
+.cv-tabla-row{
+    width: 1200px;
+}
+.cv-tablita-row{
+    width: 900px;
 }
 
 .cv-tabla-head{
@@ -69,15 +75,26 @@
     background-color: #0033A0;
 }
 
-.cv-tabla-head-col{
+.cv-tabla-head-col,
+.cv-tabla-head-col1{
     position: relative;
-    width: 33.33%;
     height: auto;
     margin: 0px;
     padding: 10px 15px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.cv-tabla-head-col p{
+.cv-tabla-head-col{
+    width: 33.33%;
+}
+.cv-tabla-head-col1{
+    width: 100%;
+}
+
+.cv-tabla-head-col p,
+.cv-tabla-head-col1 p{
     display: block;
     margin: 0px;
     padding: 0px;
@@ -134,7 +151,7 @@
 .cv-tabla-body-col .cv-tabla-body-item:last-child{
     margin-bottom: 0px;
 }
-.cv-tabla-body-item::after{
+/*.cv-tabla-body-item::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -142,7 +159,7 @@
     background-color: #e9ecf0;
     bottom: 0px;
     left: 0px;
-}
+}*/
 .cv-tabla-body-item p{
     display: block;
     width: 100%;
@@ -158,6 +175,41 @@
 
     font-family: 'Barlow-Regular';
     font-size: 16px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+.cv-tabla-body-item p span{
+    font-family: 'Barlow-Bold';
+}
+
+.cv-tabla-body-subitem{
+    position: relative;
+    width: 100%;
+    width: calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0px;
+    margin-left: 10px;
+}
+.cv-tabla-body-subitem p{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 0px center;
+    background-image: url(../images/arrow-regular.svg);
+
+    font-family: 'Barlow-Regular';
+    font-size: 15px;
     color: #53565A;
     font-weight: normal;
     line-height: normal;

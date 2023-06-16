@@ -34,15 +34,15 @@
 }
 .cv-banner-content h1{
     font-family: 'FSJoey-Regular';
-    font-size: 35px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 .cv-banner-content h2{
     font-family: 'FSJoey-Heavy-Regular';
-    font-size: 80px;
+    font-size: 75px;
     color: #00BAD8;
     margin-top: -14px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 .cv-banner-content-tile-big{
     font-size: 65px !important;
@@ -116,4 +116,12 @@
 }
 #cv-banner-content-corresponsales h2{
     margin-top: -10px;
+}
+#cv-banner-content-digital{
+    width: 47%;
+    left: 11%;
+}
+#cv-banner-content-retail{
+    width: 46%;
+    left: 11%;
 }

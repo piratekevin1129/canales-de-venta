@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     border-radius: 4px;
+    overflow: hidden;
 }
 .cv-columna-t2 .row2,
 .cv-columna-t2 .row3{
@@ -124,11 +125,24 @@
     align-items: stretch;
     justify-content: space-evenly;
 }
+.row-content-ul-row1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 .row-content-ul-col{
     position: relative;
     margin: 0px;
     padding: 0px;
     width: 48%;
+    height: auto;
+    display: block;
+}
+.row-content-ul-col1{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     height: auto;
     display: block;
 }

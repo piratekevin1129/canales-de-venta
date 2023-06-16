@@ -75,6 +75,15 @@
     font-weight: normal;
     line-height: normal;
 }
+.cv-large-card-content-box > div p span{
+    font-family: 'Barlow-Bold';
+}
+.cv-large-card-content-box > div p a{
+    color: #0033A0;
+    font-family: 'Barlow-Medium';
+    text-decoration: underline !important;
+    font-size: inherit;
+}
 
 .cv-large-card-icon{
     position: absolute;
