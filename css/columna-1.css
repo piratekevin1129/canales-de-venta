@@ -157,10 +157,12 @@
 
     font-family: 'FSJoey-Regular';
     font-size: 22px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-align: center;
     font-weight: normal;
     line-height: 28px;
+    text-decoration: none !important;
+    cursor: default;
 }
 .cv-columna-t1-button{
     display: block;

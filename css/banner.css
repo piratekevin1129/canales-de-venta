@@ -33,14 +33,14 @@
     text-align: left;
 }
 .cv-banner-content h1{
-    font-family: 'FSJoey-Regular';
+    font-family: 'FSJoey-Regular' !important;
     font-size: 30px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .cv-banner-content h2{
-    font-family: 'FSJoey-Heavy-Regular';
+    font-family: 'FSJoey-Heavy-Regular' !important;
     font-size: 75px;
-    color: #00BAD8;
+    color: #00BAD8 !important;
     margin-top: -14px;
     margin-bottom: -14px;
 }
@@ -49,7 +49,7 @@
     line-height: 60px !important;
 }
 .cv-banner-content-subtile-big{
-    font-size: 30px !important;
+    font-size: 25px !important;
 }
 
 .cv-banner-breadcrumb{
