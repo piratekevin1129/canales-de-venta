@@ -4,63 +4,63 @@ var canales_recomendados = [
         nombre:'Index',
         img:'index',
         descripcion:'',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Canales-de-ventas.aspx'
     },
     {
         id:1,
         nombre:'Affinity',
         img:'affinity',
         descripcion:'Generamos alianzas con empresas de servicios públicos, cajas de compensación, entre otras, para estar más cerca de ti y ofrecerte soluciones de seguros ajustadas a tus necesidades.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Affinity.aspx'
     },
     {
         id:2,
         nombre:'Asesores',
         img:'asesores',
         descripcion:'Nuestros asesores de seguros te ofrecen soluciones integrales y a tu medida, a través de un acompañamiento personalizado, buscando siempre tu tranquilidad y bienestar.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Asesores.aspx'
     },
     {
         id:3,
         nombre:'Bancaseguros',
         img:'bancaseguros',
         descripcion:'A través de alianzas con distintas entidades financieras del país, buscamos estar más cerca de ti y brindarte la protección que necesites.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Bancaseguros.aspx'
     },
     {
         id:4,
         nombre:'Corredores',
         img:'corredores',
         descripcion:'Una solución para grandes empresas que buscan asegurar su patrimonio y el bienestar de sus empleados. Para este canal, contamos con compañías especializadas en atender la protección integral de tu empresa y sus empleados. Identiﬁca a todos nuestros corredores autorizados.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Corredores.aspx'
     },
     {
         id:5,
         nombre:'Corresponsales',
         img:'corresponsales',
         descripcion:'Llegamos al lugar donde te encuentres con nuestros corresponsales de seguros, quienes están a tu disposición para compartir contigo nuestro portafolio de servicios. Aquí encontrarás diferentes puntos de comercio (tiendas en tu barrio, personas naturales, etc.) que comparten con nosotros el propósito de protegerte.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Corresponsales.aspx'
     },
     {
         id:6,
         nombre:'Digital',
         img:'digital',
         descripcion:'Contamos con suraenlinea.com y wesura.com, nuestros canales de venta digitales para que accedas a nuestro portafolio de seguros de forma directa, ágil y en línea.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Digital.aspx'
     },
     {
         id:7,
         nombre:'Retail',
         img:'retail',
         descripcion:'Desarrollamos alianzas con almacenes de grandes superﬁcies y diferentes industrias que nos permiten estar en tu cotidianidad, para que puedas conocer los servicios que tenemos para ti en cualquier lugar.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Retail.aspx'
     },
     {
         id:8,
         nombre:'Protección',
         img:'proteccion',
         descripcion:'Queremos ser ese paso extra al momento de protegerte a ti y a tu familia. Nuestro objetivo es ayudarte a gestionar los riesgos y las incertidumbres asociadas con tu labor o con tu futuro.',
-        link:'#'
+        link:'https://www.segurossura.com.co/paginas/cv-23/Proteccion.aspx'
     }
 ]
 
@@ -111,7 +111,7 @@ function setRandomCanales(not_allowed){
     html+='<div class="cv-nuestros-canales-col2">'
         html+='<div class="cv-nuestros-canales-card2">'
             html+='<div class="cv-nuestros-canales-card-head">'
-                html+='<img src="images/cards/'+canales_recomendados[cr1].img+'.jpg" />'
+                html+='<img src="/images/canales-de-ventas.v2/cards/'+canales_recomendados[cr1].img+'.jpg" />'
                 html+='<h3 class="cv-card-'+canales_recomendados[cr1].img+'-title"><span>'+canales_recomendados[cr1].nombre+'</span></h3>'
             html+='</div>'
             html+='<div class="cv-nuestros-canales-card-body">'
@@ -122,7 +122,7 @@ function setRandomCanales(not_allowed){
 
         html+='<div class="cv-nuestros-canales-card2">'
             html+='<div class="cv-nuestros-canales-card-head">'
-                html+='<img src="images/cards/'+canales_recomendados[cr2].img+'.jpg" />'
+                html+='<img src="/images/canales-de-ventas.v2/cards/'+canales_recomendados[cr2].img+'.jpg" />'
                 html+='<h3 class="cv-card-'+canales_recomendados[cr2].img+'-title"><span>'+canales_recomendados[cr2].nombre+'</span></h3>'
             html+='</div>'
             html+='<div class="cv-nuestros-canales-card-body">'
@@ -133,7 +133,7 @@ function setRandomCanales(not_allowed){
 
         html+='<div class="cv-nuestros-canales-card2">'
             html+='<div class="cv-nuestros-canales-card-head">'
-                html+='<img src="images/cards/'+canales_recomendados[cr3].img+'.jpg" />'
+                html+='<img src="/images/canales-de-ventas.v2/cards/'+canales_recomendados[cr3].img+'.jpg" />'
                 html+='<h3 class="cv-card-'+canales_recomendados[cr3].img+'-title"><span>'+canales_recomendados[cr3].nombre+'</span></h3>'
             html+='</div>'
             html+='<div class="cv-nuestros-canales-card-body">'
