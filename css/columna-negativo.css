@@ -96,7 +96,52 @@
     -o-transform: scale(1.1) rotate(-2deg);
 }
 
-.cv-columna-negativo-text{
+.cv-columna-negativo-col:hover .cv-columna-negativo-bolita{
+    animation-name: animacion-bolita-cv;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    -webkit-animation-name: animacion-bolita-cv;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+@keyframes animacion-bolita-cv{
+    0%{
+        top: 0px;
+        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        -o-transform: scale(1,1);
+    }
+    30%{
+        top: -10px;
+        transform: scale(1.2,1.2);
+        -webkit-transform: scale(1.2,1.2);
+        -o-transform: scale(1.2,1.2);
+    }
+    55%{
+        top: 0px;
+        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        -o-transform: scale(1,1);
+    }
+    85%{
+        top: -5px;
+        transform: scale(1.1,1.1);
+        -webkit-transform: scale(1.1,1.1);
+        -o-transform: scale(1.1,1.1);
+    }
+    100%{
+        top: 0px;
+        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        -o-transform: scale(1,1);
+    }
+
+}
+
+.cv-columna-negativo-text,
+.cv-columna-negativo-num{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -104,13 +149,46 @@
     top: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    
     box-sizing: border-box;
     padding: 0px 20px;
 }
+.cv-columna-negativo-text{
+    align-items: flex-start;
+    justify-content: center;
+}
+.cv-columna-negativo-num{
+    align-items: center;
+    justify-content: space-around;
+}
 
-.cv-columna-negativo-text > h3{
+.cv-columna-negativo-bolita{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px 0px 25px;
+    background-color: #E3E829;
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+
+    font-family: 'FSJoey-Bold';
+    font-size: 24px;
+    color: #0033A0;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+}
+
+.cv-columna-negativo-text > h3,
+.cv-columna-negativo-num > h3{
     display: block;
     width: 100%;
     margin: 0px;
@@ -123,7 +201,8 @@
     line-height: normal;
     margin-bottom: 15px;
 }
-.cv-columna-negativo-text > p{
+.cv-columna-negativo-text > p,
+.cv-columna-negativo-num > p{
     display: block;
     width: 100%;
     margin: 0px;

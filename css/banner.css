@@ -16,13 +16,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 52%;
-    left: 9%;
     top: 0px;
+    width: 50%;
+    left: 11%;
 }
 
-.cv-banner-content h1,.cv-banner-content h2
-{
+.cv-banner-content h1,.cv-banner-content h2{
     margin: 0px;
     padding: 0px;
     display: block;
@@ -44,6 +43,13 @@
     color: #00BAD8;
     margin-top: -14px;
     margin-bottom: -10px;
+}
+.cv-banner-content-tile-big{
+    font-size: 65px !important;
+    line-height: 60px !important;
+}
+.cv-banner-content-subtile-big{
+    font-size: 30px !important;
 }
 
 .cv-banner-breadcrumb{
@@ -80,4 +86,34 @@
     color: #00BAD8;
     font-family: 'FSJoey-Medium';
     font-weight: normal !important;
+}
+
+/*************/
+
+#cv-banner-content-index{
+    width: 50%;
+    left: 11%;
+}
+#cv-banner-content-affinity{
+    width: 50%;
+    left: 11%;
+}
+#cv-banner-content-asesores{
+    width: 53%;
+    left: 11%;
+}
+#cv-banner-content-bancaseguros{
+    width: 54%;
+    left: 11%;
+}
+#cv-banner-content-corredores{
+    width: 44%;
+    left: 10%;
+}
+#cv-banner-content-corresponsales{
+    width: 47%;
+    left: 10%;
+}
+#cv-banner-content-corresponsales h2{
+    margin-top: -10px;
 }

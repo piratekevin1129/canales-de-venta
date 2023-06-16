@@ -42,9 +42,9 @@
 }
 
 .cv-columna-iconos-row,
-.cv-columna-iconos-row2{
+.cv-columna-iconos-row2,
+.cv-columna-iconos-row3{
     position: relative;
-    width: 900px;
     margin: 0px auto;
     padding: 0px;
     border-radius: 5px;
@@ -53,9 +53,15 @@
     overflow: hidden;
 }
 .cv-columna-iconos-row{
+    width: 900px;
     border: #e9ecf0 solid 1px;
 }
 .cv-columna-iconos-row2{
+    width: 900px;
+    border: #0033A0 solid 1px;
+}
+.cv-columna-iconos-row3{
+    width: 1200px;
     border: #0033A0 solid 1px;
 }
 
@@ -143,14 +149,15 @@
 .cv-columna-iconos-col,
 .cv-columna-iconos-col2,
 .cv-columna-iconos-col3,
-.cv-columna-iconos-col4{
+.cv-columna-iconos-col4,
+.cv-columna-iconos-col5{
     position: relative;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px 20px;
     height: auto;
 }
-.cv-columna-iconos-col{/*4 columnas*/
+.cv-columna-iconos-col{/*4 columnas con letra grande*/
     width: 25%;
 }
 .cv-columna-iconos-col2{/*3 columnas con letra chiquita*/
@@ -162,10 +169,14 @@
 .cv-columna-iconos-col4{/*1 columna*/
     width: 100%;
 }
+.cv-columna-iconos-col5{/*4 columnas con letra chiquita*/
+    width: 25%;
+}
 
 .cv-columna-iconos-col::after,
 .cv-columna-iconos-col2::after,
-.cv-columna-iconos-col3::after{
+.cv-columna-iconos-col3::after,
+.cv-columna-iconos-col5::after{
     content: "";
     position: absolute;
     width: 1px;
@@ -177,7 +188,8 @@
 
 .cv-columna-iconos-row-body .cv-columna-iconos-col:last-child::after,
 .cv-columna-iconos-row-body .cv-columna-iconos-col2:last-child::after,
-.cv-columna-iconos-row-body .cv-columna-iconos-col3:last-child::after{
+.cv-columna-iconos-row-body .cv-columna-iconos-col3:last-child::after,
+.cv-columna-iconos-row-body .cv-columna-iconos-col5:last-child::after{
     display: none;
 }
 
@@ -198,7 +210,8 @@
 .cv-columna-iconos-col p,
 .cv-columna-iconos-col2 p,
 .cv-columna-iconos-col3 p,
-.cv-columna-iconos-col4 p{
+.cv-columna-iconos-col4 p,
+.cv-columna-iconos-col5 p{
     display: block;
     margin: 0px;
     padding: 0px;
@@ -211,7 +224,8 @@
 .cv-columna-iconos-col p span,
 .cv-columna-iconos-col2 p span,
 .cv-columna-iconos-col3 p span,
-.cv-columna-iconos-col4 p span{
+.cv-columna-iconos-col4 p span,
+.cv-columna-iconos-col5 p span{
     font-family: 'Barlow-Bold';
 }
 .cv-columna-iconos-col p{
@@ -225,6 +239,9 @@
 }
 .cv-columna-iconos-col4 p{
     font-size: 18px;
+}
+.cv-columna-iconos-col5 p{
+    font-size: 16px;
 }
 
 .cv-columna-iconos-a{
