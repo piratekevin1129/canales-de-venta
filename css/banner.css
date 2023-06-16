@@ -42,7 +42,7 @@
     font-size: 75px;
     color: #00BAD8;
     margin-top: -14px;
-    margin-bottom: -20px;
+    margin-bottom: -14px;
 }
 .cv-banner-content-tile-big{
     font-size: 65px !important;
@@ -123,5 +123,9 @@
 }
 #cv-banner-content-retail{
     width: 46%;
+    left: 11%;
+}
+#cv-banner-content-proteccion{
+    width: 48%;
     left: 11%;
 }

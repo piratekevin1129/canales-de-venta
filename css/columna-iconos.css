@@ -44,7 +44,8 @@
 
 .cv-columna-iconos-row,
 .cv-columna-iconos-row2,
-.cv-columna-iconos-row3{
+.cv-columna-iconos-row3,
+.cv-columna-iconos-row4{
     position: relative;
     margin: 0px auto;
     padding: 0px;
@@ -64,6 +65,10 @@
 .cv-columna-iconos-row3{
     width: 1200px;
     border: #0033A0 solid 1px;
+}
+.cv-columna-iconos-row4{
+    width: 1200px;
+    border: #e9ecf0 solid 1px;
 }
 
 .cv-columna-iconos-row-head,
@@ -99,6 +104,7 @@
     font-size: 21px;
     font-weight: normal;
     line-height: normal;
+    text-align: center;
 }
 .cv-columna-iconos-row-head p{
     color: #0033A0;
