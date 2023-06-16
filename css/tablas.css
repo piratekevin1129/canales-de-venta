@@ -171,7 +171,8 @@
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: 0px center;
-    background-image: url(../images/check-circle-regular.svg);
+    /*background-image: url(../images/check-circle-regular.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/check-circle-regular.svg);
 
     font-family: 'Barlow-Regular';
     font-size: 16px;
@@ -206,7 +207,8 @@
     background-repeat: no-repeat;
     background-size: 12px 12px;
     background-position: 0px center;
-    background-image: url(../images/arrow-regular.svg);
+    /*background-image: url(../images/arrow-regular.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/arrow-regular.svg);
 
     font-family: 'Barlow-Regular';
     font-size: 15px;

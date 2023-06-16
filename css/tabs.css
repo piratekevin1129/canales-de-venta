@@ -189,14 +189,16 @@
     background-repeat: no-repeat;
     background-size: 12px 12px;
     background-position: 0px 5px;
-    background-image: url(../images/phone-icon.svg);
+    /*background-image: url(../images/phone-icon.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/phone-icon.svg);
 }
 .cv-contacto-item p:nth-child(3){
     padding-left: 15px;
     background-repeat: no-repeat;
     background-size: 12px 12px;
     background-position: 0px 5px;
-    background-image: url(../images/email-icon.svg);
+    /*background-image: url(../images/email-icon.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/email-icon.svg);
 }
 
 .cv-contacto-item:hover{

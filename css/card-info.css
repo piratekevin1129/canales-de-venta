@@ -27,7 +27,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-image: url(../images/info-icon.svg);
+    /*background-image: url(../images/info-icon.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/info-icon.svg);
     margin-right: 20px;
 }
 
@@ -99,7 +100,8 @@
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: 0px center;
-    background-image: url(../images/info-check-icon.svg);
+    /*background-image: url(../images/info-check-icon.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/info-check-icon.svg);
 }
 .cv-card-info-telefonos li span{
     font-family: 'Barlow-Medium';

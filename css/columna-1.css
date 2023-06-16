@@ -80,7 +80,8 @@
 
     box-sizing: border-box;
     padding-left: 20px;
-    background-image: url(../images/check-circle-regular.svg);
+    /*background-image: url(../images/check-circle-regular.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/check-circle-regular.svg);
     background-size: 15px 15px;
     background-position: 0px center;
     background-repeat: no-repeat;
@@ -226,7 +227,8 @@
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
-    background-image: url(../images/phone-icon.svg);
+    /*background-image: url(../images/phone-icon.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/phone-icon.svg);
 }
 
 .cv-columna-t1-mensaje-text{

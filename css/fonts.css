@@ -1,32 +1,32 @@
 @font-face {
     font-family: "Barlow-Bold";
-    src: url("fonts/Barlow-Bold.ttf") format('truetype');
+    src: url("/fonts/home-2021/Barlow-Bold.ttf") format('truetype');
 }
 @font-face {
     font-family: "Barlow-Medium";
-    src: url("fonts/Barlow-Medium.ttf") format('truetype');
+    src: url("/fonts/home-2021/Barlow-Medium.ttf") format('truetype');
 }
 @font-face {
     font-family: "Barlow-Regular";
-    src: url("fonts/Barlow-Regular.ttf") format('truetype');
+    src: url("/fonts/home-2021/Barlow-Regular.ttf") format('truetype');
 }
 @font-face {
     font-family: "FSJoey-Bold";
-    src: url("fonts/FSJoey-Bold.ttf") format('truetype');
+    src: url("/fonts/home-2021/FSJoey-Bold.ttf") format('truetype');
 }
 @font-face {
     font-family: "FSJoey-Heavy-Regular";
-    src: url("fonts/FSJoey-Heavy-Regular.ttf") format('truetype');
+    src: url("/fonts/home-2021/FSJoey-Heavy-Regular.ttf") format('truetype');
 }
 @font-face {
     font-family: "FSJoey-Light";
-    src: url("fonts/FSJoey-Light.ttf") format('truetype');
+    src: url("/fonts/home-2021/FSJoey-Light.ttf") format('truetype');
 }
 @font-face {
     font-family: "FSJoey-Medium";
-    src: url("fonts/FSJoey-Medium.ttf") format('truetype');
+    src: url("/fonts/home-2021/FSJoey-Medium.ttf") format('truetype');
 }
 @font-face {
     font-family: "FSJoey-Regular";
-    src: url("fonts/FSJoey-Regular.ttf") format('truetype');
+    src: url("/fonts/home-2021/FSJoey-Regular.ttf") format('truetype');
 }

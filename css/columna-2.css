@@ -189,11 +189,13 @@
 
 .cv-columna-t2 .row2-content li,
 .cv-columna-t2 .row3-content li{
-    background-image: url(../images/check-circle-regular.svg);
+    /*background-image: url(../images/check-circle-regular.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/check-circle-regular.svg);
 }
 .cv-columna-t2 .row5-content li,
 .cv-columna-t2 .row6-content li{
-    background-image: url(../images/check-circle-regular-white.svg);
+    /*background-image: url(../images/check-circle-regular-white.svg);*/
+    background-image: url(/images/canales-de-ventas.v2/check-circle-regular-white.svg);
 }
 
 .cv-columna-t2 .row2-content p,
