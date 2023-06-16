@@ -138,12 +138,6 @@
     padding: 25px 20px;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    border-bottom: #e9ecf0 solid 1px;
-}
-
-.cv-columna-iconos-row .cv-columna-iconos-row-body:last-child,
-.cv-columna-iconos-row2 .cv-columna-iconos-row-body:last-child{
-    border-bottom: none !important;
 }
 
 .cv-columna-iconos-col,
