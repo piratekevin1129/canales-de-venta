@@ -48,17 +48,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
 }
 .cv-nuestros-canales-col{
     width: 900px;
+    align-items: stretch;
 }
 .cv-nuestros-canales-col2{
     width: 1200px;
+    align-items: stretch;
 }
 
 .cv-nuestros-canales-card,.cv-nuestros-canales-card2{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
@@ -209,6 +212,7 @@
     box-sizing: border-box;
     padding: 15px;
     min-height: 200px;
+    flex-grow: 1;
 }
 
 .cv-nuestros-canales-card-body p{
@@ -223,6 +227,7 @@
     font-weight: normal;
     line-height: normal;
     text-align: left;
+    margin-bottom: 15px;
 }
 
 .cv-nuestros-canales-card-body a{

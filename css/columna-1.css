@@ -42,15 +42,41 @@
     justify-content: center;
 }
 
-.cv-columna-t1 .row2 h3,.cv-columna-t1 .row2 p,
-.cv-columna-t1 .row3 h3,.cv-columna-t1 .row3 p{
+.cv-columna-t1 .row2 ul,
+.cv-columna-t1 .row3 ul{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.cv-columna-t1 .row2 li,
+.cv-columna-t1 .row3 li{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+
+    box-sizing: border-box;
+    padding-left: 20px;
+    background-image: url(../images/check-circle-regular.svg);
+    background-size: 15px 15px;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+}
+
+.cv-columna-t1 .row2 h3,
+.cv-columna-t1 .row3 h3{
     margin: 0px;
     padding: 0px;
     font-weight: normal;
     line-height: normal;
-}
-.cv-columna-t1 .row2 h3,
-.cv-columna-t1 .row3 h3{
+
     position: relative;
     font-family: 'Barlow-Bold';
     font-size: 24px;
@@ -70,6 +96,11 @@
 }
 .cv-columna-t1 .row2 p,
 .cv-columna-t1 .row3 p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    line-height: normal;
+
     font-family: 'Barlow-Regular';
     font-size: 16px;
     color: #53565A;
