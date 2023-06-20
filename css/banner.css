@@ -49,7 +49,7 @@
     line-height: 60px !important;
 }
 .cv-banner-content-subtile-big{
-    font-size: 30px !important;
+    font-size: 25px !important;
 }
 
 .cv-banner-breadcrumb{
@@ -73,6 +73,8 @@
     text-decoration: none;
 }
 .cv-banner-breadcrumb p a{
+    font-family: inherit !important;
+    font-size: inherit !important;
     text-decoration: none;
     color: inherit !important;
 }
