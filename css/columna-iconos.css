@@ -6,6 +6,7 @@
 }
 .cv-columna-iconos > h1{
     width: 1200px;
+    max-width: 100%;
     position: relative;
     margin: 0px auto;
     padding: 0px;
@@ -56,18 +57,22 @@
 }
 .cv-columna-iconos-row{
     width: 900px;
+    max-width: 100%;
     border: #e9ecf0 solid 1px;
 }
 .cv-columna-iconos-row2{
     width: 900px;
+    max-width: 100%;
     border: #0033A0 solid 1px;
 }
 .cv-columna-iconos-row3{
     width: 1200px;
+    max-width: 100%;
     border: #0033A0 solid 1px;
 }
 .cv-columna-iconos-row4{
     width: 1200px;
+    max-width: 100%;
     border: #e9ecf0 solid 1px;
 }
 

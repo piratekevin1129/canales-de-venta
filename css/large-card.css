@@ -10,6 +10,7 @@
 .cv-large-card{
     position: relative;
     width: 900px;
+    max-width: 100%;
     margin: 0px auto;
     border-radius: 10px;
     background-color: #FFFFFF;

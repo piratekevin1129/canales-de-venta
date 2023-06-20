@@ -1,3 +1,9 @@
+.cv-banner-wrap{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 .cv-banner{
     position: relative;
     width: 100%;
@@ -55,10 +61,14 @@
 .cv-banner-breadcrumb{
     position: absolute;
     width: 1200px;
+    max-width: 100%;
     left: 50%;
-    left: calc(50% - 600px);
-    left: -moz-calc(50% - 600px);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     top: 0px;
+    box-sizing: border-box;
+    padding: 0px 15px;
 }
 .cv-banner-breadcrumb p{
     display: block;
@@ -105,7 +115,7 @@
     left: 11%;
 }
 #cv-banner-content-bancaseguros{
-    width: 54%;
+    width: 55%;
     left: 11%;
 }
 #cv-banner-content-corredores{
@@ -130,4 +140,240 @@
 #cv-banner-content-proteccion{
     width: 48%;
     left: 11%;
+}
+
+@media (min-width: 1200px){/*1200 en adelante*/
+
+}
+
+@media (min-width: 960px) and (max-width: 1199px){
+    .cv-banner-content h2{
+        font-size: 60px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .cv-banner-content h1{
+        font-size: 25px;
+    }
+
+    .cv-banner-content-tile-big{
+        font-size: 55px !important;
+        line-height: 50px !important;
+    }
+    .cv-banner-content-subtile-big{
+        font-size: 22px !important;
+    }
+}
+
+/**********responsive**********/
+@media (min-width: 768px) and (max-width: 959px){
+    .cv-banner-wrap{
+        height: 235px;
+    }
+    .cv-banner{
+        position: absolute;
+        right: -80px;
+        width: 1024px;
+    }
+    .cv-banner img{
+        width: 1024px;
+    }
+    .cv-banner-content{
+        left: initial !important;
+    }
+
+    #cv-banner-content-index{
+        right: 310px;
+        width: 500px;
+    }
+    #cv-banner-content-affinity{
+        right: 340px;
+        width: 500px;
+    }
+    #cv-banner-content-asesores{
+        right: 290px;
+        width: 540px;
+    }
+    #cv-banner-content-bancaseguros{
+        right: 280px;
+        width: 550px;
+    }
+    #cv-banner-content-corredores{
+        right: 390px;
+        width: 450px;
+    }
+    #cv-banner-content-corresponsales{
+        right: 370px;
+        width: 470px;
+    }
+    #cv-banner-content-digital{
+        right: 350px;
+        width: 490px;
+    }
+    #cv-banner-content-retail{
+        right: 370px;
+        width: 470px;
+    }
+    #cv-banner-content-proteccion{
+        right: 340px;
+        width: 500px;
+    }
+
+    .cv-banner-content h2{
+        font-size: 55px !important;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .cv-banner-content h1{
+        font-size: 25px !important;
+    }
+
+    .cv-banner-content .cv-banner-content-tile-big{
+        font-size: 50px !important;
+        line-height: 45px !important;
+        margin-bottom: 5px;
+    }
+    .cv-banner-content .cv-banner-content-subtile-big{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 860px){
+    #cv-banner-content-index{
+        width: 430px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-affinity{
+        width: 400px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-asesores{
+        width: 450px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-bancaseguros{
+        width: 460px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-corredores{
+        width: 450px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-corresponsales{
+        width: 370px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    
+    #cv-banner-content-digital{
+        width: 470px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-retail{
+        width: 450px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+    #cv-banner-content-proteccion{
+        width: 480px !important;
+        right: initial !important;
+        left: 15px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .cv-banner-wrap{
+        height: 235px;
+    }
+    .cv-banner{
+        position: absolute;
+        right: initial;
+        left: -120px;
+        width: 1024px;
+    }
+    .cv-banner img{
+        width: 1024px;
+    }
+    .cv-banner-content{
+        left: 15px !important;
+    }
+
+    #cv-banner-content-index{
+        width: 70%;
+    }
+    #cv-banner-content-affinity{
+        width: 70%;
+    }
+    #cv-banner-content-asesores{
+        width: 70%;
+    }
+    #cv-banner-content-bancaseguros{
+        width: 70%;
+    }
+    #cv-banner-content-corredores{
+        width: 60%;
+    }
+    #cv-banner-content-corresponsales{
+        width: 60%;
+    }
+    #cv-banner-content-digital{
+        width: 62%;
+    }
+    #cv-banner-content-retail{
+        width: 60%;
+    }
+    #cv-banner-content-proteccion{
+        width: 65%;
+    }
+
+    .cv-banner-content h2{
+        font-size: 50px !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .cv-banner-content h1{
+        font-size: 20px !important;
+    }
+
+    .cv-banner-content .cv-banner-content-tile-big{
+        font-size: 40px !important;
+        line-height: normal !important;
+        margin-bottom: 0px !important;
+    }
+    .cv-banner-content .cv-banner-content-subtile-big{
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 600px){
+    .cv-banner-content{
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 519px){
+    .cv-banner-content{
+        left: 5% !important;
+        width: 90% !important;
+    }
+
+    /*.cv-banner-content h2{
+        font-size: 40px !important;
+    }
+    .cv-banner-content h1{
+        font-size: 16px !important;
+    }
+
+    .cv-banner-content .cv-banner-content-tile-big{
+        font-size: 35px !important;
+    }
+    .cv-banner-content .cv-banner-content-subtile-big{
+        font-size: 15px !important;
+    }*/
 }

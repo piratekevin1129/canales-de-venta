@@ -44,6 +44,7 @@
 .cv-columna-negativo-row{
     position: relative;
     width: 900px;
+    max-width: 100%;
     height: auto;
     margin: 0px auto;
     padding: 0px;
