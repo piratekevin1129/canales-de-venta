@@ -28,7 +28,7 @@
     background-color: #009CB5;
     top: 50%;
     top: calc(50% - 150px);
-    top: -moz-calc(50% - 250px);
+    top: -moz-calc(50% - 150px);
     left: 100%;
     left: calc(100% - 200px);
     left: -moz-calc(100% - 200px);
@@ -101,4 +101,71 @@
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
+}
+
+@media (min-width: 1200px){/*1200 en adelante*/
+
+}
+
+@media (min-width: 960px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 959px){
+    .cv-large-card{
+        width: 100%;
+        width: calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        
+        padding: 25px;
+    }
+}
+
+@media (max-width: 767px){
+    .cv-large-card{
+        width: 100%;
+        width: calc(100% - 20px);
+        width: -moz-calc(100% - 20px);
+        
+        padding: 20px;
+    }
+
+    .cv-large-card::before{
+        width: 200px;
+        left: 100%;
+        left: calc(100% - 150px);
+        left: -moz-calc(100% - 150px);
+    }
+
+    .cv-large-card-content-box{
+        width: 100%;
+        width: calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+    }
+
+    .cv-large-card-icon{
+        width: 70px;
+        height: 70px;
+        top: 50%;
+        top: calc(50% - 35px);
+        top: -moz-calc(50% - 35px);
+        right: 40px;
+    
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 519px){
+    .cv-large-card::before{
+        display: none;
+    }
+    .cv-large-card-content-box{
+        width: 100%;
+    }
+    .cv-large-card-icon{
+        display: none;
+    }
+    .cv-large-card-content-box > div p{
+        font-size: 15px;
+    }
 }
