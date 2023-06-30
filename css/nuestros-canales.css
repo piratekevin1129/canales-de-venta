@@ -4,42 +4,6 @@
     box-sizing: border-box;
     padding: 30px 0px;
 }
-.cv-nuestros-canales > h1{
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 5px;
-    font-family: 'Barlow-Bold';
-    font-size: 28px;
-    color: #0033A0 !important;
-    font-weight: normal;
-    line-height: normal;
-    text-align: center;
-}
-.cv-nuestros-canales > h1::after {
-    content: "";
-    position: absolute;
-    width: 55px;
-    height: 2px;
-    border-radius: 2px;
-    background-color: #00AEC7;
-    top: 100%;
-    left: 50%;
-    left: calc(50% - 27.5px);
-    left: -moz-calc(50% - 27.5px);
-}
-
-.cv-nuestros-canales > h2{
-    padding: 0px;
-    margin: 0px;
-    margin-top: 15px;
-    font-family: 'Barlow-Medium';
-    font-size: 18px;
-    color: #53565A;
-    text-align: center;
-    font-weight: normal;
-    line-height: normal;
-}
 
 .cv-nuestros-canales-col,.cv-nuestros-canales-col2{
     position: relative;

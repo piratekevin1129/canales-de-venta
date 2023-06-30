@@ -1,0 +1,107 @@
+.cv-title-content > h1,
+.cv-title-content-blanco > h1{
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    margin: 0px auto;
+    
+    padding-bottom: 5px;
+    font-family: 'Barlow-Bold';
+    font-size: 28px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+}
+.cv-title-content > h1{
+    color: #0033A0 !important;
+}
+.cv-title-content-blanco > h1{
+    color: #FFFFFF !important;
+}
+
+
+.cv-title-content > h1::after,
+.cv-title-content-blanco > h1::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 2px;
+    border-radius: 2px;
+    top: 100%;
+    left: 50%;
+    left: calc(50% - 27.5px);
+    left: -moz-calc(50% - 27.5px);
+}
+.cv-title-content > h1::after{
+    background-color: #00AEC7;
+}
+.cv-title-content-blanco > h1::after {
+    background-color: #00AEC7;
+}
+
+.cv-title-content > h2,
+.cv-title-content-blanco > h2{
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    margin: 0px auto;
+
+    margin-top: 15px;
+    font-family: 'Barlow-Medium';
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+.cv-title-content > h2{
+    color: #53565A;
+}
+.cv-title-content-blanco > h2{
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 1200px){/*1200 en adelante*/
+
+}
+
+@media (min-width: 960px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 959px){
+    .cv-title-content > h1,
+    .cv-title-content-blanco > h1{
+        font-size: 25px;
+    }
+    .cv-title-content > h2,
+    .cv-title-content-blanco > h2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px){
+    .cv-title-content > h1,
+    .cv-title-content-blanco > h1{
+        font-size: 24px;
+    }
+    .cv-title-content > h2,
+    .cv-title-content-blanco > h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 519px){
+    .cv-title-content > h1,
+    .cv-title-content-blanco > h1{
+        font-size: 21px;
+    }
+    .cv-title-content > h2,
+    .cv-title-content-blanco > h2{
+        font-size: 15px;
+    }
+}
