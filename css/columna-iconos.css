@@ -151,10 +151,10 @@
     width: 25%;
 }
 .cv-columna-iconos-col2{/*3 columnas con letra chiquita*/
-    width: 33.33%;
+    width: 33.33333%;
 }
 .cv-columna-iconos-col3{/*3 columnas con letra grande*/
-    width: 33.33%;
+    width: 33.33333%;
 }
 .cv-columna-iconos-col4{/*1 columna*/
     width: 100%;
@@ -254,42 +254,6 @@
     border-radius: 5px;
 }
 
-.cv-columna-iconos > p,
-.cv-columna-iconos > h6{
-    display: block;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Barlow-Regular';
-    color: #53565A;
-    text-align: center;
-    font-weight: normal;
-    line-height: normal;
-    box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.cv-columna-iconos > p{
-    font-size: 21px;
-}
-.cv-columna-iconos > h6{
-    font-size: 18px;
-}
-
-.cv-columna-iconos > p span,
-.cv-columna-iconos > h6 span{
-    font-family: 'Barlow-Bold';
-}
-.cv-columna-iconos > p a,
-.cv-columna-iconos > h6 a{
-    font-family: 'Barlow-Medium';
-    display: inline-block;
-    padding: 2px 10px 5px 10px;
-    background-color: #E3E829;
-    color: #0033A0 !important;
-    text-decoration: none !important;
-    border-radius: 5px;
-}
 
 @media (min-width: 1200px){/*1200 en adelante*/
 
@@ -327,7 +291,7 @@
     }
 
     .cv-columna-iconos-row-subhead{
-        padding: 5px 15px;
+        padding: 7px 15px;
     }
     .cv-columna-iconos-row-subhead p{
         font-size: 16px;
@@ -365,13 +329,6 @@
     .cv-columna-iconos-col5 p{
         font-size: 14px;
     }
-
-    .cv-columna-iconos > p{
-        font-size: 19px;
-    }
-    .cv-columna-iconos > h6{
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 767px){
@@ -401,7 +358,7 @@
     }
 
     .cv-columna-iconos-row-subhead{
-        padding: 5px 15px;
+        padding: 7px 15px;
     }
     .cv-columna-iconos-row-subhead p{
         font-size: 15px;
@@ -450,13 +407,6 @@
     .cv-columna-iconos-col5 p{
         font-size: 15px;
     }
-
-    .cv-columna-iconos > p{
-        font-size: 18px;
-    }
-    .cv-columna-iconos > h6{
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 519px){
@@ -476,13 +426,6 @@
     }
 
     .cv-columna-iconos-row-subhead p{
-        font-size: 15px;
-    }
-
-    .cv-columna-iconos > p{
-        font-size: 16px;
-    }
-    .cv-columna-iconos > h6{
         font-size: 15px;
     }
 }

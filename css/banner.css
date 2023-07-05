@@ -288,6 +288,19 @@
 }
 
 @media (max-width: 767px){
+    .cv-banner-breadcrumb{
+        width: 100%;
+        left: 0%;
+        transform: initial;
+        -webkit-transform: initial;
+        -o-transform: initial;
+        padding: 0px 10px;
+    }
+    .cv-banner-breadcrumb p{
+        padding: 7px 0px;
+        font-size: 15px;
+    }
+
     .cv-banner-wrap{
         height: 235px;
     }

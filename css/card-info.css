@@ -156,6 +156,13 @@
     .cv-card-info-text p{
         font-size: 16px;
     }
+    .cv-card-info-telefonos li{
+        margin: 5px 10px;
+        padding-left: 20px;
+        font-size: 16px;
+        
+        background-size: 14px 14px;
+    }
 }
 
 @media (max-width: 519px){
@@ -163,24 +170,37 @@
         width: 100%;
         width: calc(100% - 20px);
         width: -moz-calc(100% - 20px);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .cv-card-info-icon{
         width: 35px;
         height: 35px;
-        margin-right: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
     }
 
     .cv-card-info-text{
         width: 100%;
-        width: calc(100% - 45px);
-        width: -moz-calc(100% - 45px);
     }
 
     .cv-card-info-text h3{
         font-size: 17px;
+        text-align: center;
     }
     .cv-card-info-text p{
         font-size: 14px;
+        text-align: center;
+    }
+    .cv-card-info-telefonos li{
+        margin: 5px 10px;
+        padding-left: 15px;
+        font-size: 14px;
+        
+        background-size: 12px 12px;
     }
 }
