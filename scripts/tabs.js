@@ -7,4 +7,8 @@ function clickHeaderTab(btn,t){
     tabs_header_children[t-1].classList.add('cv-tab-header-active')
 
     document.getElementById('cv-tabs-container').className = 'cv-tabs-container-active-'+t
+
+
+    document.getElementById('cv-tabs-header-container').scrollIntoView();
 }
+

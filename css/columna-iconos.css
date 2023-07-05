@@ -307,6 +307,12 @@
     .cv-columna-iconos-col4,
     .cv-columna-iconos-col5{
         padding: 0px 15px;
+        margin-bottom: 10px;
+    }
+
+    .cv-columna-iconos-col,
+    .cv-columna-iconos-col5{
+        width: 50%;
     }
 
     .cv-columna-iconos-icon{
