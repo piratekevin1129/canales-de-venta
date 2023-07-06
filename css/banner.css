@@ -47,8 +47,9 @@
     font-family: 'FSJoey-Heavy-Regular' !important;
     font-size: 75px;
     color: #00BAD8 !important;
-    margin-top: -14px;
-    margin-bottom: -14px;
+    line-height: 65px !important;
+    /*margin-top: -14px;
+    margin-bottom: -14px;*/
 }
 .cv-banner-content-tile-big{
     font-size: 65px !important;
@@ -149,8 +150,9 @@
 @media (min-width: 960px) and (max-width: 1199px){
     .cv-banner-content h2{
         font-size: 60px;
-        margin-top: -10px;
-        margin-bottom: -10px;
+        /*margin-top: -10px;
+        margin-bottom: -10px;*/
+        line-height: 50px !important;
     }
     .cv-banner-content h1{
         font-size: 25px;
@@ -221,8 +223,9 @@
 
     .cv-banner-content h2{
         font-size: 55px !important;
-        margin-top: -10px;
-        margin-bottom: -10px;
+        line-height: 45px !important;
+        /*margin-top: -10px;
+        margin-bottom: -10px;*/
     }
     .cv-banner-content h1{
         font-size: 25px !important;
@@ -269,7 +272,6 @@
         right: initial !important;
         left: 15px !important;
     }
-    
     #cv-banner-content-digital{
         width: 470px !important;
         right: initial !important;
@@ -310,9 +312,7 @@
         left: -120px;
         width: 1024px;
     }
-    .cv-banner img{
-        width: 1024px;
-    }
+
     .cv-banner-content{
         left: 15px !important;
     }
@@ -333,7 +333,7 @@
         width: 60%;
     }
     #cv-banner-content-corresponsales{
-        width: 60%;
+        width: 61%;
     }
     #cv-banner-content-digital{
         width: 62%;
@@ -347,8 +347,9 @@
 
     .cv-banner-content h2{
         font-size: 50px !important;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        line-height: 50px !important;
+        /*margin-top: 0px;
+        margin-bottom: 0px;*/
     }
     .cv-banner-content h1{
         font-size: 20px !important;
@@ -364,16 +365,52 @@
     }
 }
 
-@media (max-width: 600px){
-    .cv-banner-content{
-        width: 80% !important;
-    }
-}
 
-@media (max-width: 519px){
+@media (max-width: 600px){
+    .cv-banner-wrap{
+        height: 250px;
+        background: #0033A0;
+        background: linear-gradient(to bottom, #003cbc 0%, #002678 50%, #001d5b 100%);
+        background: -moz-linear-gradient(to bottom, #003cbc 0%, #002678 50%, #001d5b 100%);
+        background: -webkit-linear-gradient(to bottom, #003cbc 0%, #002678 50%, #001d5b 100%);
+        background: -o-linear-gradient(to bottom, #003cbc 0%, #002678 50%, #001d5b 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .cv-banner{
+        display: none;
+    }
+    .cv-banner img{
+        display: none;
+    }
+
     .cv-banner-content{
-        left: 5% !important;
         width: 90% !important;
+        height: auto;
+        position: relative;
+        left: initial !important;
+        top: initial !important;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 60px;
+        box-sizing: border-box;
+        padding: 20px 20px;
+        border: #ffffff solid 1px;
+    }
+
+    .cv-banner-content-left h1,.cv-banner-content-left h2{
+        text-align: center !important;
+    }
+
+    .cv-banner-content h2{
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .cv-banner-content h1{
+        font-size: 18px !important;
     }
 
     /*.cv-banner-content h2{
