@@ -271,12 +271,18 @@
     }*/
 
     .cv-nuestros-canales-card-head h3 span{
-        font-size: 24px;
+        font-size: 21px;
+    }
+    .cv-nuestros-canales-card-body p{
+        font-size: 15px;
     }
 }
 
 @media (max-width: 519px){
     .cv-nuestros-canales-card-head h3 span{
         font-size: 21px;
+    }
+    .cv-nuestros-canales-card-body p{
+        font-size: 14px;
     }
 }

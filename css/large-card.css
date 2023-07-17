@@ -153,6 +153,17 @@
     
         background-size: 100%;
     }
+
+    .cv-large-card-content-box > div{
+        padding-left: 0px;
+    }
+    .cv-large-card-content-box > div::after{
+        display: none;
+    }
+
+    .cv-large-card-content-box > div p{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 519px){
@@ -166,6 +177,6 @@
         display: none;
     }
     .cv-large-card-content-box > div p{
-        font-size: 15px;
+        font-size: 14px;
     }
 }

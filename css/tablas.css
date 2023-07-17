@@ -25,6 +25,15 @@
     max-width: 100%;
 }
 
+.cv-tabla-head{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .cv-tabla-head-col,
 .cv-tabla-head-col1{
     position: relative;
