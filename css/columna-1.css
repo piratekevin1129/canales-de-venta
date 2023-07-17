@@ -398,6 +398,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .cv-columna-t3 .row3{
+        margin-bottom: 20px;
+    }
 
     .cv-columna-t1 .row2 > p,
     .cv-columna-t1 .row3 > p,
@@ -432,6 +435,17 @@
         border-radius: 30px;
         font-size: 18px;
         line-height: 20px;
+    }
+
+    .cv-columna-t1 .cv-columna-t1-button{
+        text-align: center;
+    }
+    .cv-columna-t3 .cv-columna-t1-button{
+        text-align: center;
+    }
+    .cv-columna-t1-button a{
+        padding: 5px 12px;
+        font-size: 16px;
     }
 }
 
